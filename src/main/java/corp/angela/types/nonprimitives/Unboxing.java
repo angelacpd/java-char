@@ -2,7 +2,8 @@ package corp.angela.types.nonprimitives;
 
 public class Unboxing {
     public static void main(String[] args) {
-        int i = new Integer(3);
+//        int i = new Integer(3); // This was deprecated
+        int i = 3;
 
         int inteiro = Integer.valueOf(1024);
 

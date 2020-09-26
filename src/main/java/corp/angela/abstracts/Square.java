@@ -1,6 +1,6 @@
 package corp.angela.abstracts;
 
-public class Square extends GeometricShape{
+public class Square extends GeometricShape {
 
     private String nome;
     private Double area;

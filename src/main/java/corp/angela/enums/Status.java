@@ -6,8 +6,8 @@ public enum Status {
     CLOSE
     */
 
-    OPEN (13, "Open"),
-    CLOSE (02, "Closed");
+    OPEN(13, "Open"),
+    CLOSE(02, "Closed");
 
 
     private int cod;
@@ -18,8 +18,12 @@ public enum Status {
         this.text = text;
     }
 
-    public int getCod() { return cod; }
+    public int getCod() {
+        return cod;
+    }
 
-    public String getText() { return text; }
+    public String getText() {
+        return text;
+    }
 
 }
