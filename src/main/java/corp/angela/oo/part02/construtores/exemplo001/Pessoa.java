@@ -4,6 +4,8 @@ public class Pessoa {
 
     private String nome;
 
+    // Construtor omitido
+
     public String getNome() {
         return nome;
     }

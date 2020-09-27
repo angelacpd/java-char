@@ -4,6 +4,7 @@ public class Pessoa {
 
     private String nome;
 
+    // Construtor padrao
     public Pessoa() {
     }
 

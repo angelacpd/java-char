@@ -8,6 +8,10 @@ public class ExemploInstanciaObjeto {
 
         System.out.println(pessoa.getNome());
 
+        Carro fofo = new Carro("Ford", "Ka", 2020);
+
+        System.out.println(fofo.getMarca());
+
     }
 
 }

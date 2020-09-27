@@ -2,6 +2,11 @@ package corp.angela.oo.part02.construtores.exemplo003;
 
 public class Pessoa {
 
+    // Construtor padrao
+    public Pessoa() {
+    }
+
+    // Construtor com parametro
     public Pessoa(String nome) {
         this.nome = nome;
     }
